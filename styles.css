@@ -1,0 +1,26 @@
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Share Tech", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Modificaciones estructurales si no usas 100% Materialize */
+main {
+    margin-top: 20px;
+}
+
+/* Ajuste manual para las insignias en las tablas de Materialize */
+.table .badge {
+    position: relative;
+    right: auto;
+    top: auto;
+}
+       
